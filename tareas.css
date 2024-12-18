@@ -1,0 +1,137 @@
+/* Establece el fondo de toda la página en un rosa fuerte */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF1493; /* Rosa fuerte */
+    margin: 0;
+    padding: 0;
+    color: white; /* Texto blanco para mejor contraste */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #FF1493; /* Rosa fuerte */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #FF1493; /* Rosa fuerte */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #F06FA0; /* Rosa un poco más claro al hacer hover */
+}
+
+/* Estilo para el contenedor de búsqueda */
+.search-container {
+    margin-top: 20px;
+}
+
+/* Estilo para el campo de búsqueda */
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el contenedor de tareas */
+#tareas-container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Estilo para cada tarea */
+.tarea {
+    background-color: white; /* Fondo blanco para las tareas */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la imagen de la tarea */
+.tarea img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el título de la tarea */
+.tarea h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #FF1493; /* Rosa fuerte */
+}
+
+/* Estilo para el contenido de la tarea */
+.tarea p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Estilo para los botones de acción de la tarea (editar, eliminar, PDF) */
+.tarea-actions {
+    margin-top: 10px;
+}
+
+.tarea-actions button {
+    background-color: #FF1493; /* Rosa fuerte */
+    margin: 5px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tarea-actions button:hover {
+    background-color: #F06FA0; /* Rosa un poco más claro al hacer hover */
+}
+
+/* Estilo para el formulario de creación de tarea */
+form {
+    background-color: #FF1493; /* Rosa fuerte */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Estilo para los campos del formulario */
+form label, form textarea, form input {
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form input[type="file"] {
+    background-color: white;
+    color: black;
+}
+
+/* Estilo para los botones dentro del formulario */
+form button {
+    background-color: #FF1493; /* Rosa fuerte */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #F06FA0; /* Rosa un poco más claro al hacer hover */
+}
